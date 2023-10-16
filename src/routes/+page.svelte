@@ -33,16 +33,16 @@
 				<div class="w-1/2 h-1 bg-secondary" />
 				<div class="flex h-9 w-1/2 justify-end gap-5">
 					<a href="https://www.linkedin.com/in/tinotenda-mhandire-a3843128a/" target="_blank"
-						><div class="w-9 h-9"><FaLinkedin /></div></a
+						><div class="w-6 h-6 md:w-9 md:h-9"><FaLinkedin /></div></a
 					>
 					<a href="https://github.com/elucubro" target="_blank"
-						><div class="w-9 h-9"><FaGithubSquare /></div></a
+						><div class="w-6 h-6 md:w-9 md:h-9"><FaGithubSquare /></div></a
 					>
 					<a href="https://www.linkedin.com/in/tinotenda-mhandire-a3843128a/" target="_blank"
-						><div class="w-9 h-9"><FaTwitterSquare /></div></a
+						><div class="w-6 h-6 md:w-9 md:h-9"><FaTwitterSquare /></div></a
 					>
 					<a href="https://news.ycombinator.com/user?id=tinomhandire" target="_blank"
-						><div class="w-9 h-9"><FaHackerNewsSquare /></div></a
+						><div class="w-6 h-6 md:w-9 md:h-9"><FaHackerNewsSquare /></div></a
 					>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 		<div class="flex flex-col gap-5 w-full">
 			<h1 class="text-6xl">Latest Posts:</h1>
 			<div class="w-1/2 h-1 bg-secondary" />
-			<h2 class="text-2xl">
+			<h2 class="text-xl md:text-2xl">
 				These are blog posts, case studies, and opinon pieces related to work I do.
 			</h2>
 		</div>

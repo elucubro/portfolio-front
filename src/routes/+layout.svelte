@@ -10,9 +10,10 @@
     <Header />
 
 
-    <main class="flex-grow w-full h-full bg-background">
+    <main class="flex-grow w-full h-screen bg-background">
         <!-- Content -->
         <slot class="w-full h-full bg-background" />
+        <div class="transparent h-12"></div>
     </main>
     
     <!-- Footer -->
