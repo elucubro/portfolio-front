@@ -8,8 +8,8 @@
 </script>
 
     <!-- Desktop Menu -->
-    <nav class="flex flex-col items-center border-solid border-b-2 border-secondary bg-background pt-8 fixed top-0  w-[90vw]">
-        <div class="flex w-full gap-10 items-center">
+    <nav class="flex flex-col items-center  bg-background pt-8 fixed top-0  w-full">
+        <div class="flex w-[90vw] gap-10 items-center">
 
         <!-- Title -->
         <a href="/" class="w-full">
@@ -29,7 +29,7 @@
 
         </div>
 
-        <ul class="md:hidden text-semibold text-2xl gap-4 items-center border-solid border-t-2 border-secondary {toggle ? 'flex' : 'hidden'} flex-col justify-around w-full text-text">
+        <ul class="md:hidden text-semibold text-2xl gap-4 items-center border-solid border-t-2 border-secondary {toggle ? 'flex' : 'hidden'} flex-col justify-around w-[90vw] text-text">
             <li><div class="h-4"></div></li>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About Me</a></li>
@@ -38,6 +38,6 @@
             <li><a href="/cv">CV</a></li>
             <li><div class="h-4"></div></li>
         </ul>
-
+        <div class="border-solid border-b-2 border-secondary w-[90vw]"></div>
     </nav>
     

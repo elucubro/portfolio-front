@@ -1,10 +1,13 @@
 <!-- FILEPATH: /home/elucubro/portfolio/front/src/routes/+page.svelte -->
 
 <script lang="js">
+	export let data;
+	import Card from '$lib/Blog/Card.svelte';
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithubSquare from 'svelte-icons/fa/FaGithubSquare.svelte';
 	import FaTwitterSquare from 'svelte-icons/fa/FaTwitterSquare.svelte';
 	import FaHackerNewsSquare from 'svelte-icons/fa/FaHackerNewsSquare.svelte';
+	AOS.init(); 
 </script>
 
 <!-- SEO -->
@@ -55,11 +58,18 @@
 <section class="h-full w-full bg-background grid justify-center align-center">
 	<div class="flex flex-col justify-start py-32 items-center h-full w-[90vw]">
 		<div class="flex flex-col gap-5 w-full">
-			<h1 class="text-6xl">Latest Posts:</h1>
-			<div class="w-1/2 h-1 bg-secondary" />
-			<h2 class="text-xl md:text-2xl">
+			<h1 data-aos="fade-right" class="text-6xl">Latest Posts:</h1>
+			<div data-aos="fade-right" class="w-1/2 h-1 bg-secondary" />
+			<h2 data-aos="fade-right" class="text-xl md:text-2xl">
 				These are blog posts, case studies, and opinon pieces related to work I do.
 			</h2>
+			<ul data-aos="fade-up" class='lg:grid lg:grid-cols-[repeat(auto-fit,minmax(32rem,1fr));] 2xl:py-20 py-40 flex flex-col items-center place-items-center lg:gap-5 2xl:gap-10 gap-10 w-[90vw] '>
+				{#each data.props.posts.reverse() as { path, metadata: { title, date, img_src, desc }}}
+				  <li >
+					<a rel="prefetch" href="blog/{path}"><Card title={title} image_source={img_src} published_date={date} desc={desc}/></a> 
+				  </li>
+				{/each}
+			   </ul>
 		</div>
 	</div>
 </section>

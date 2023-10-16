@@ -2,12 +2,14 @@
 title: "Not Everything Needs To Scale"
 date: "2023-10-14"
 published: true
-img_src: "https://images.unsplash.com/photo-1487035170094-b76fc43abdf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=500&q=60"
-img_alt: "Sprout Social"
-desc: "Scalability is important, but there's still a place for self-hosted, *gasp* monolithic applications. As it becomes easier than ever to host via AWS, GCP, DO and Azure, (much to the dismay of my nostagia) it becomes less and less common to see debian servers running Nginx or Apache pointing to a household IP. "
+img_src: "/blog/blog-flowers.webp"
+img_alt: "Photo of flowers against a dark green background"
+desc: "Scalability is important, but there's still a place for self-hosted, *gasp* monolithic applications. As it becomes easier than ever to host via Amazon Web Services, Google Cloud Platform, Digital Ocean and..."
 ---
 
 # Not Everything Needs to Scale
+
+Scalability is important, but there's still a place for self-hosted, *gasp* monolithic applications. As it becomes easier than ever to host via Amazon Web Services, Google Cloud Platform, Digital Ocean and Azure, (much to the dismay of my nostagia) it becomes less and less common to see debian servers running Nginx or Apache pointing to a household IP.
 
 In the realm of software development, the term "scaling" often carries immense weight. Whether you're building a web application, a database, or a piece of infrastructure, the prevailing wisdom is that scalability is paramount. However, it's essential to recognize that not everything in software development needs to scale, and there are situations where the relentless pursuit of scalability can be counterproductive.
 

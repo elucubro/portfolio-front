@@ -2,12 +2,14 @@
 title: "Templates Are Great, Actually"
 date: "2023-10-14"
 published: true
-img_src: "https://img.freepik.com/premium-photo/simple-workspace-with-laptop_67155-7725.jpg?w=1380"
-img_alt: "Sprout Social"
-desc: "Templates are efficient, promoting productivity and consistency in various fields. They serve as valuable tools for learning and collaboration, offering a foundation for newcomers and facilitating teamwork. Furthermore, templates are not rigid constraints but adaptable starting points that can be customized to meet specific needs and creative visions. "
+img_src: "/blog/blog-mac-camera.webp"
+img_alt: "Mac pro next to a coffe and DSLR camera against a grey countertop"
+desc: "Templates are efficient, promoting productivity and consistency in various fields. They serve as valuable tools for learning and collaboration, offering a foundation for newcomers and facilitating teamwork... "
 ---
 
 # Templates Are Great, Actually!
+
+Templates are efficient, promoting productivity and consistency in various fields. They serve as valuable tools for learning and collaboration, offering a foundation for newcomers and facilitating teamwork. Furthermore, templates are not rigid constraints but adaptable starting points that can be customized to meet specific needs and creative visions.
 
 In the world of design, content creation, and even software development, templates have gained something of a mixed reputation. Some argue that they stifle creativity and result in cookie-cutter outcomes, while others swear by their efficiency and time-saving benefits. In this article, we'll make a case for why templates are, in fact, a great tool in many creative and technical fields.
 The Misconception about Templates
