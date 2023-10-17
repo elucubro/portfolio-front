@@ -1,13 +1,15 @@
 <!-- FILEPATH: /home/elucubro/portfolio/front/src/routes/+page.svelte -->
-
 <script lang="js">
+	import { onMount } from 'svelte';
 	export let data;
 	import Card from '$lib/Blog/Card.svelte';
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithubSquare from 'svelte-icons/fa/FaGithubSquare.svelte';
 	import FaTwitterSquare from 'svelte-icons/fa/FaTwitterSquare.svelte';
 	import FaHackerNewsSquare from 'svelte-icons/fa/FaHackerNewsSquare.svelte';
-	AOS.init(); 
+	onMount(() => {
+		AOS.init();
+	});
 </script>
 
 <!-- SEO -->

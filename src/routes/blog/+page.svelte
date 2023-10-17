@@ -13,6 +13,7 @@
      <a rel="prefetch" href="blog/{path}"><Card title={title} image_source={img_src} published_date={date} desc={desc}/></a> 
    </li>
  {/each}
+
 </ul>
 
 </section>

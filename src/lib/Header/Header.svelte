@@ -8,7 +8,7 @@
 </script>
 
     <!-- Desktop Menu -->
-    <nav class="flex flex-col items-center  bg-background pt-8 fixed top-0  w-full">
+    <nav class="flex flex-col items-center  bg-background pt-8 fixed top-0  w-full z-50">
         <div class="flex w-[90vw] gap-10 items-center">
 
         <!-- Title -->
