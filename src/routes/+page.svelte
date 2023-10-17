@@ -65,7 +65,7 @@
 			<h2 data-aos="fade-right" class="text-xl md:text-2xl">
 				These are blog posts, case studies, and opinon pieces related to work I do.
 			</h2>
-			<ul data-aos="fade-up" class='lg:grid lg:grid-cols-[repeat(auto-fit,minmax(32rem,1fr));] 2xl:py-20 py-40 flex flex-col items-center place-items-center lg:gap-5 2xl:gap-10 gap-10 w-[90vw] '>
+			<ul data-aos="fade-up" class='lg:grid lg:justify-between lg:grid-cols-[repeat(auto-fit,minmax(32rem,1fr));] 2xl:py-20 py-40 flex flex-col items-center lg:gap-5 2xl:gap-10 gap-10 w-[90vw] place-items-center '>
 				{#each data.props.posts.reverse() as { path, metadata: { title, date, img_src, desc }}}
 				  <li >
 					<a rel="prefetch" href="blog/{path}"><Card title={title} image_source={img_src} published_date={date} desc={desc}/></a> 
